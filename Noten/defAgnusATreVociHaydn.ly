@@ -1,3 +1,5 @@
+\version "2.22.0"
+
 
 chorpartiturAgnusATreVociHaydn = {
   \new ChoirStaff <<

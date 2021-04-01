@@ -19,7 +19,9 @@ tempTranspose = #(define-music-function (parser location music)
                      #{ \transpose c c  $music #}))
 
 
-
+ablaufzeileSanctusATreVociHaydn = {
+  
+}
 
 globalSanctusATreVociHaydn = {
   \taktstil
@@ -257,7 +259,7 @@ metronomZeileSanctusATreVociHaydn = \drummode {
 }
 \include "defSanctusATreVociHaydn.ly"
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "SanctusATreVociHaydn-Arbeitspartitur"
@@ -295,4 +297,4 @@ metronomZeileSanctusATreVociHaydn = \drummode {
     \scoreSanctusATreVociHaydn
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}

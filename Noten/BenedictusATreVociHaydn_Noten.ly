@@ -18,7 +18,9 @@ tempTranspose = #(define-music-function (parser location music)
                           (to (ly:make-pitch octave note alteration)))
                      #{ \transpose c c  $music #}))
 
-
+ablaufzeileBenedictusATreVociHaydn = {
+  
+}
 
 
 globalBenedictusATreVociHaydn = {
@@ -411,7 +413,7 @@ metronomZeileBenedictusATreVociHaydn = \drummode {
 }
 \include "defBenedictusATreVociHaydn.ly"
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "BenedictusATreVociHaydn-Arbeitspartitur"
@@ -449,4 +451,4 @@ metronomZeileBenedictusATreVociHaydn = \drummode {
     \scoreBenedictusATreVociHaydn
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}

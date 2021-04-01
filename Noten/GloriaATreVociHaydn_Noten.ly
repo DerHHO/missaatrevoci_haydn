@@ -20,6 +20,9 @@ tempTranspose = #(define-music-function (parser location music)
 
 
 
+ablaufzeileGloriaATreVociHaydn = {
+  
+}
 
 globalGloriaATreVociHaydn = {
   \taktstil
@@ -32,24 +35,257 @@ globalQuiTollisGloriaATreVociHaydn = {
   \key d\minor
   \time 3/4
   \bar "||"
-  \tempo "Andante"
+  \tempo "Andante" 4 = 80
 }
 
 globalQuoniamGloriaATreVociHaydn = {
   \key d\major
   \time 4/4
   \bar "||"
-  \tempo "Allegro"
+  \tempo "Allegro" 2 = 80
 }
 
-violineINotenGloriaATreVociHaydn = \tempTranspose \relative c' {
+violineINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
   \globalGloriaATreVociHaydn
+  d2 \f fis, |
+  g4 b r2 |
+  e,4 \p e fis fis |
+  e r4 r2 | \mBreak
+  b'2 \f cis, |
+  d4 fis g b |
+  a8 a a a  cis cis cis cis |
+  d8 fis8 a g fis e d cis |
 
+  d4 fis8[ e] d4 d8 cis |
+  b d fis e d cis b ais |
+  b4 d8 cis b4 b8 a |
+  g b d cis b a g fis |
+
+  b4( a g) fis |
+  e4 r fis fis |
+  g2 fis |
+  e2 r2 |
+
+  d'2 \f fis,4 fis |
+  g4 b r2 |
+  e,4 \p e fis4 fis |
+  e4 r4 r2 |
+  b'4. \f b8 cis,2 |
+  d4 fis8 fis g4 b8 b |
+  a8 a a a cis cis cis cis |
+  d8 d a fis a4 a |
+
+  b2 g |
+  fis4. a8 a8 d a fis
+  b2 g4 g |
+  fis4.( a8) a8 fis a d |
+
+  bes2 bes4 bes |
+  bes4 a a a |
+  a1 |
+  a |
+  bes2 bes |
+  bes4( a) a4 a |
+  a2 a |
+  a2. r4 |
+
+  d4( fis8[ e]) d4 d |
+  d8 fis a g fis e d cis |
+  d4.( cis8 b4) b4 |
+  b8 d fis e d cis b a |
+  b8 fis g a g b d cis |
+  b4 a b e8 e |
+  d8 d d d  cis cis cis cis |
+  d8 d fis e d cis b a |
+
+  b8 fis g a g b d cis |
+  d4 d d g8 g |
+  fis8 fis fis fis e cis' cis cis |
+  d4 r4 r2 |
+  \globalQuiTollisGloriaATreVociHaydn
+  \relative bes' {
+    bes8( c) c( d) r4 |
+    r4 f,8( g) g( a) |
+    r4 bes8( c) c( d) |
+    d4( f) r |
+    r4 g,8( a) a( bes) | \mBreak
+    cis2 cis4 |
+    d2 a4 |
+    g4( f2) |
+    e4 e8( f) f( g) |
+    r4 e8( f) f( g) | \mBreak
+    r4 f8( g) g( a) |
+    d4( c) r4 |
+    r4 a8( bes) bes( c) |
+    a2 a4 |
+    bes( c) d8( bes) | \mBreak
+    a8( bes) a4( g) |
+    f4 a8( bes) bes( c) |
+    r4 a8( bes) bes( c) |
+    r4 c8( d) d( e) |
+    r4 cis8( d) d( e) | \mBreak
+    r4 f8( g) g( a) |
+    d,4( ees) d |
+    cis( d) bes |
+    a2( cis4) |
+
+  }
+  \globalQuoniamGloriaATreVociHaydn
+  \relative d'' {
+    d8\< fis, d fis a a fis a |
+    d2\f fis, |
+    g4 b r2 |
+    e,4 \p e fis fis |
+    fis( e) r2 |
+    b'2 \f cis, |
+    d4. e8 fis4 g |
+    a8 a a a  cis cis e e  |
+    fis8 fis8 a g fis e d cis |
+    b2 g4 g |
+    fis4. a8 fis8 d' a fis |
+    b2 g |
+    fis4.( a8) a8 d b g |
+    c2 c |
+    b4. a8 g4 a |
+    b4 d8 d e8 e fis fis
+    g4 cis, r2 |
+    d4( fis8[ e] d4) d4 |
+    b8 d fis e d cis b ais |
+    b4( d8[ cis] b4) b |
+    g8 b d cis b a g fis |
+    b2 b |
+    a4( cis d) e |
+    d8 d d d cis cis e g |
+    fis8 d fis e d cis b a |
+    b8 fis g a g b d cis |
+    d4 d d g8 g |
+    fis8 fis fis fis e cis' cis cis |
+    d4 r4 r2 |
+    \bar "|."
+  }
 }
 
-violineIINotenGloriaATreVociHaydn = \tempTranspose \relative c' {
+violineIINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
   \globalGloriaATreVociHaydn
+  d2\f fis, |
+  g4 b r2 |
+  cis,4\p cis d d |
+  cis r4 r2 | \mBreak
+  b'2\f cis, |
+  d4 fis g d |
+  fis8 fis fis fis e e g g |
+  fis8 fis a g fis e d cis |
 
+  d4 r r d8 cis |
+  b d fis e d cis b ais |
+  b4 r r b8 a |
+  g b d cis b a g fis' |
+
+  g4( fis e) d |
+  cis4 r d d |
+  e2 d |
+  cis2 r |
+
+  d'2\f fis,4 fis |
+  g4 b r2 |
+  cis,4 \p 4 d4 d |
+  cis r4 r2 |
+  b'4.\f b8 cis,2 |
+  d4 fis8 fis g4 d8 d |
+  fis8 fis fis fis e e g g |
+  fis8 d' a fis fis4 fis |
+
+  g2 e |
+  d4. fis8 fis8 d' a fis
+  g2 e4 e |
+  d4.( fis8) fis8 fis a d |
+
+  R1 |
+  \relative e' {
+    e2 cis4 e |
+    f4 e8[ f] g4 f |
+    f2 e |
+    R1 |
+    e2 cis4( e) |
+    f4( e8[ f]) g4 f |
+    f4. e8 e4 r4
+
+    fis4( d4) a' fis |
+    d8 fis a g fis e d cis |
+    fis2. d4 |
+    b8 d fis e d cis b a |
+    d8 fis g a g b d cis |
+    d4 d d g8 g |
+    fis8 fis fis fis e e e e |
+    d8 d fis e d cis b a |
+
+    d8 fis, g a g b d cis |
+    b4 a b e8 e |
+    d8 d d d  cis e e e |
+    fis4 r r2 |
+  }
+  \globalQuiTollisGloriaATreVociHaydn
+  \relative g' {
+    g8( a) a( bes) r4 |
+    r4 d,8( e) e( f) |
+    r4 g8( a) a( bes) |
+    f4( a) r |
+    r4 e8( f) f( g) | \mBreak
+    g2 bes4 |
+    a4( g) f4 |
+    e4( d2) |
+    cis4 cis8( d8) d( e) |
+    r4 cis8( d) d( e) | \mBreak
+    r4 d8( e) e( f) |
+    bes4( a) r4 |
+    r4 f8( g) g( a) |
+    c,4( f) e4 |
+    d4( f) f4 | \mBreak
+    f4 f( e) |
+    f4 f8( g) g( a) |
+    r4 f8( g) g( a) |
+    r4 g8( b) b( c) |
+    r4 a8( b) b( cis) | \mBreak
+    r4 d8( e) e( f) |
+    a,4( bes) a |
+    g( a) d, |
+    f4( e2) |
+
+  }
+  \globalQuoniamGloriaATreVociHaydn
+  \relative d' {
+    \globalQuoniamGloriaATreVociHaydn
+    d8\< fis d fis a a fis a |
+    d2\f fis, |
+    g4 b r2 |
+    cis,4\p cis d d |
+    d( cis) r2 |
+    b'2\f cis, |
+    d4. e8 fis4 g |
+    fis8 fis fis fis e e g g |
+    a8 fis a g fis e d cis |
+    g'2 e4 e |
+    d4. fis8 fis8 d' a fis
+    g2 e |
+    d4.( fis8) fis8 d' b g |
+    a2 a |
+    d,4. d8 d4 fis |
+    g4 a8 a g8 g a a |
+    a4 g r2 |
+    R1 |
+    b8 d fis e d cis b ais |
+    b8 r8 r4 r2 |
+    g8 b d cis b a g fis |
+    g4( fis) e( d) |
+    e4( g fis) b |
+    fis8 fis fis fis  e e g cis
+    d8 d fis e d cis b a |
+    d8 fis, g a g b d cis |
+    b4 a b e8 e |
+    d8 d d d  cis e e e |
+    fis4 r r2 |
+    \bar "|."
+  }
 }
 
 sopranNotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
@@ -65,9 +301,9 @@ sopranNotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
   d4 r r d^\soloMarkup | \mBreak
   d4 fis8[ e] d4 d^\tuttiMarkup |
   d4. d8 d4 b8 b |
-  b4 b8 cis b4 b8^\tuttiMarkup b |
+  b4 d8 cis b4 b8^\tuttiMarkup b |
   b4 b8 b b4 b8 b | \mBreak
-  b4( a f) fis |
+  b4( a g) fis |
   e4 r fis fis |
   g2 fis |
   e2 r2 | \mBreak
@@ -364,7 +600,7 @@ bassNotenGloriaATreVociHaydn = \tempTranspose \relative d' {
   a2 r | \mBreak
   d2-\tweak X-offset #-3 \f fis,4 fis |
   g4 b r2 |
-  a4 8 8 gis4 gis |
+  a4-\tweak X-offset #-3 \p  8 8 gis4 gis |
   a4 r r2 | \mBreak
   b4.-\tweak X-offset #-3 \f b8 cis,2 |
   d4 fis8 fis g4 g8 g |
@@ -386,11 +622,11 @@ bassNotenGloriaATreVociHaydn = \tempTranspose \relative d' {
   d2 d |
   b4( fis'8[ e] d[ cis]) b4 |
   b4. b8 b2 | \mBreak
-  g2 g |
+  g'2 g |
   g4 fis g e8 e |
   a1 |
   b4 r4 r2 | \mBreak
-  g'2 g |
+  g2 g |
   g4 fis g e8 e |
   a1 |
   d,4 r r2 | \mBreak
@@ -419,7 +655,7 @@ bassNotenGloriaATreVociHaydn = \tempTranspose \relative d' {
     d4.-\tweak X-offset #-3 \f d8 fis,4 4 |
     g4 b r2 |
     a2-\tweak X-offset #-3 \p gis4 4 | \mBreak
-    a4 a r2 | 
+    a4 a r2 |
     b2-\tweak X-offset #-3 \f cis,4 4 |
     d4. e8 fis4 g |
     a4 a a a, | \mBreak
@@ -578,10 +814,10 @@ continuoNotenGloriaATreVociHaydn = \tempTranspose \relative d' {
     g4 a b a |
     g fis e d | \mBreak
     cis4 e r2 |
-    d8 fis a g fis e d cis |
-    b d fis e d cis b ais |
-    b d fis e d cis b a | \mBreak
-    g8 b d cis b a g fis |
+    d8\p fis a g fis e d cis |
+    b\f d fis e d cis b ais |
+    b\p d fis e d cis b a | \mBreak
+    g8\f b d cis b a g fis |
     e'4 d cis b |
     cis a d g |
     a8 a, d fis a a, cis e | \mBreak
@@ -628,7 +864,7 @@ metronomZeileGloriaATreVociHaydn = \drummode {
   \score {
 
     \midi {
-      \tempo 4 = 120
+      \tempo 2 = 80
       \context {
         \Score
         midiChannelMapping = #'instrument
