@@ -1,9 +1,9 @@
-\version "2.18.2"
+\version "2.22.0"
 
 komponist = \markup { Michael Haydn }
 widmung = \markup {  }
 arrangeur = \markup {  }
 untertitel = \markup {  }
-herausgeber = \markup { Martin Wadsack }
+herausgeber = \markup { Arr: Martin Wadsack }
 titel = \markup { Missa a tre voci }
 schlusszeile = \markup {  }
