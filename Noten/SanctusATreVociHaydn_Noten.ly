@@ -20,19 +20,19 @@ tempTranspose = #(define-music-function (music)
 
 
 ablaufzeileSanctusATreVociHaydn = {
-  
+
 }
 
 globalSanctusATreVociHaydn = {
   \taktstil
   \accidentalStyle modern-voice
   \key d\major
-  \tempo "Adagio"
+  \tempo "Adagio" 4 = 70
   \time 3/4
 }
 
 globalHosannaSanctusATreVociHaydn = {
-  \tempo "Allegro"
+  \tempo "Allegro" 2 = 60
   \time 4/4
   \bar "||"
 }
@@ -41,21 +41,91 @@ vorspielpausenSanctusATreVociHaydn = {
 
 }
 
-violineINotenSanctusATreVociHaydn = \tempTranspose \relative c' {
+violineINotenSanctusATreVociHaydn = \tempTranspose \relative d' {
   \globalSanctusATreVociHaydn
-
+  d8. d16 fis8. d16 a'8. fis16 |
+  d'8. fis32 e d8 d cis16 d e d |
+  d4 d,8. b16 fis'8. d16 |
+  d'8. fis32 e d8 d cis16 d e d | \mBreak
+  b8. 16 8. 16 8. 16 |
+  b8[ 8] a8 a e'8[ e] |
+  d8. fis32 e d8 d cis16 d e d |
+  d8. fis32 e d8 d cis16 d e d |
+  d8. fis32 e d8 d cis16 d e d |
+  cis8. e16 a8 a a a |
+  e8. g32 fis e8 e dis16 e fis e |
+  d8. fis16 b8 b b b 
+  d,8. fis32 e d8 d cis16 d e d |
+  cis8. a16 e'8. cis16 a'8. cis,16 |
+  d8. b16 gis'8. d16 b'8. gis16 |
+  a8. cis,16 e8. cis16 <g' cis,>4 | 
+  \globalHosannaSanctusATreVociHaydn
+  \relative d'' {
+    r8 d\upbow \< d d b4\> b\! |
+    e4 e8\upbow e\upbow a,4 a |
+    b4 cis8\upbow cis\upbow d4 e8\upbow e\upbow | \mBreak
+    d4( cis) d4 r |
+    r d\upbow cis a |
+    r d\upbow b e | \mBreak
+    r4 cis\upbow a d |
+    d4\< d cis2\>( |
+    d4\!) a fis b | \mBreak
+    r4 g\upbow e a |
+    r fis\upbow d8\< d g g |
+    g2\> g\! | \mBreak
+    fis4 b a( cis) |
+    d8 cis d fis e e e e |
+    d2:16 cis2:16
+    d2 d |
+    d r2 \bar "|."
+  }
+  
 }
 
-violineIINotenSanctusATreVociHaydn = \tempTranspose \relative c' {
+violineIINotenSanctusATreVociHaydn = \tempTranspose \relative d' {
   \globalSanctusATreVociHaydn
-
+  d8. d16 fis8. d16 a'8. fis16 |
+  d'8. fis32 e d8 d cis16 d e d |
+  d4 d,8. b16 fis'8. d16 |
+  d'8. fis32 e d8 d cis16 d e d | \mBreak
+  d,8. 16 g8. 16 fis8. 16 |
+  e8[ 8] 8[ 8] cis'8 cis |
+  d8. fis32 e d8 d cis16 d e d |
+  b8. d32 cis b8 b ais16 b cis b | \mBreak
+  b8. d32 cis b8 b a16 b cis b | 
+  cis8. e16 a8 a a a |
+  e8. g32 fis e8 e dis16 e fis e |
+  d8. fis16 b8 b b b 
+  
+  d,8. fis32 e d8 d cis16 d e d |
+  cis8. a16 e'8. cis16 a'8. cis,16 |
+  d8. b16 gis'8. d16 b'8. gis16 |
+  a8. cis,16 e8. cis16 <e a,>4 | 
+  \globalHosannaSanctusATreVociHaydn
+  \relative a' {
+    R1*3 | \mBreak
+    r8 a8\upbow \< a a fis4\> fis\! |
+    b4 b8\upbow b\upbow e,4 e |
+    d4 8\upbow 8\upbow 4 g8\upbow g\upbow | \mBreak
+    g2( fis4) fis |
+    d\< g e2(\> |
+    fis4)\! fis d g | \mBreak
+    r4 e\upbow cis fis |
+    r d\upbow \< b8 b e e |
+    e2\> cis\! | \mBreak
+    d4 e fis( e) |
+    fis8 g a a b8 b g g |
+    fis2:16 e2:16
+    fis2 fis |
+    fis2 r \bar "|."
+  }
 }
 
 gemeinsamerTextSanctusATreVociHaydn = \lyricmode {
   San -- ctus, san -- ctus, san -- ctus Do -- mi -- nus,
   Do -- mi -- nus De -- us, De -- us Sa -- ba -- oth,
   Do -- mi -- nus De -- us Sa -- ba -- oth,
-  
+
 }
 
 sopranNotenSanctusATreVociHaydn = \tempTranspose \relative d'' {
@@ -67,7 +137,7 @@ sopranNotenSanctusATreVociHaydn = \tempTranspose \relative d'' {
   R2. | \mBreak
   b2.~ |
   b4( a) g |
-  fis8. fis16 fis4 r4 | 
+  fis8. fis16 fis4 r4 |
   R2. | \mBreak
   e8. 16 4 r |
   e4 e r |
@@ -175,7 +245,7 @@ bassNotenSanctusATreVociHaydn = \tempTranspose \relative c {
   e,8. e16 e4 r |
   a4 a r |
   a2 a4 |
-  a2 r4 | 
+  a2 r4 |
   \globalHosannaSanctusATreVociHaydn
   \relative a {
     R1*3 | \mBreak
@@ -259,7 +329,7 @@ metronomZeileSanctusATreVociHaydn = \drummode {
 }
 \include "defSanctusATreVociHaydn.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "SanctusATreVociHaydn-Arbeitspartitur"
@@ -297,4 +367,4 @@ metronomZeileSanctusATreVociHaydn = \drummode {
     \scoreSanctusATreVociHaydn
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***
