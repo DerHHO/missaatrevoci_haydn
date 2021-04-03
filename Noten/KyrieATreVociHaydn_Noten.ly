@@ -43,7 +43,7 @@ violineINotenKyrieATreVociHaydn = \tempTranspose \relative d'' {
   a([ b] c4) fis,8( a d,4) |
 
   b'8 b d8 d d d b b |
-  a8[ cis] d8 d d d a a  |
+  a8([ cis]) d8 d d d a a  |
   a8([ g b g] fis4) e4 |
   fis8( g a g ) g8( fis) e8-. d-. |
 
@@ -113,7 +113,7 @@ violineIINotenKyrieATreVociHaydn = \tempTranspose \relative c' {
   fis([ g] a4) fis8( a d,4) |
 
   g8 g b b b b g g |
-  a8 a fis fis a a fis fis |
+  a8( g) fis fis a a fis fis |
   fis8([ e g e] d4) cis4 |
   fis8( g a g ) g8( fis) e8-. d-. |
 
@@ -134,7 +134,7 @@ violineIINotenKyrieATreVociHaydn = \tempTranspose \relative c' {
     a8( e cis e) a8( e cis e) |
     b( d e d) b'( gis e d) |
     a'( e cis e) a( e cis e)  |
-    d( f a f) d'( a) f\upbow d\upbow |
+    e( f a f) d'( a) f\upbow d\upbow |
     b'( gis e gis) b( e, d e) |
     e( a e b') cis( a e a) |
     fis( b fis b) a( e gis e) |
@@ -451,9 +451,124 @@ continuoNotenKyrieATreVociHaydn = \tempTranspose \relative c {
   }
 }
 
-orgelRHNotenKyrieATreVociHaydn = \tempTranspose \relative c' {
+orgelRHNotenKyrieATreVociHaydn = \tempTranspose \relative a' {
   \globalKyrieATreVociHaydn
-  s1*58
+  <a fis d>2 <d a fis>4 <a fis d> |
+  <b g d>2 <d b g>4 <b g d> |
+  <a fis d>2 <g e a,>4~ <fis d a> |
+  q~ <e cis a>4 cis8 d e fis |
+  <e cis a>4 r <g cis, a>4~ <g e cis>4 |
+  <fis d>8 <g e> <a fis>4 r2 |
+  <g e>4. <a fis>8 <b g> <a fis> <b g> <g e> |
+  <a fis> <b g> <c a>4 r8 d,8 fis a |
+  <b g d>2. q4 |
+  <a fis>8 <cis g> <d fis,>4 <a fis>2 |
+  <a fis>8( <g e> <b g> <g e> <fis d>4 <e cis>4) |
+  <<
+    {
+      fis8( g a g) g( fis) e8-. d-. |
+    }
+    \\
+    \relative d' {
+      d2 s2
+    }
+  >>
+  \relative b' {
+    <b g d>2. q4 |
+    <a fis>8 <cis g> <d fis,>4 <a fis>2 |
+    <a fis>8( <g e> <fis d>2 <e cis>4) |
+    <fis d>4 a8 fis d4 r4 |
+  }
+  <<
+    \relative a' {
+      a2. r4 |
+      a2. r4 |
+    }
+    \\
+    \relative cis' {
+      cis8( d e d cis4) r |
+      d8( e fis e d4) r |
+    }
+  >>
+  \relative a' {
+    r4 <b e, d>4 <b gis d> <b e, d> |
+    <a e cis>2 r2 |
+  }
+  <<
+    \relative a' {
+      a2. r4 |
+      a2. r4 |
+    }
+    \\
+    \relative cis' {
+      cis8( d e d cis4) r |
+      d8( e fis e d4) r |
+    }
+  >>
+  \relative a' {
+    r4 <b e, d>4 <b gis d> <b e, d> |
+    q2~ <a e cis>4 r |
+  }
+  \relative a' {
+    <a e cis>2. q4 |
+    q8( <b e, d>) q4 r2 |
+    <cis a e>2. q4 |
+    <cis a e>8( <d a f>) q4 r2 |
+    <d gis e>2. q4 |
+    <cis a e>2. q4 |
+    <b fis d>2 <cis a e>4( <b gis e>) |
+    <b gis d>2( <a e cis>) |
+    <d a d,>2~ <d a fis> |
+    <cis a e>2 <e a, e>4 <cis a e> |
+    <b fis d>2 <a e cis>4( <b gis d>) |
+    <a e cis>8 b16( a) g8 fis g e a <cis a g> |
+  }
+  \relative d'' {
+    <d a fis>2 <d a fis>4 <a fis d> |
+    <b g d>2 <d b g>4 <b g d> |
+    <a fis d>2 <g e a,>4~ <fis d a> |
+    q~ <e cis a>4 cis8 d e fis |
+    <e cis a>4 r <g cis, a>4~ <g e cis>4 |
+    <fis d>8 <g e> <a fis>4 r2 |
+    <g e>4. <a fis>8 <b g> <a fis> <b g> <g e> |
+    <a fis> <b g> <c a>4 r8 d,8 fis a |
+    <bes g d>2. q4 |
+    <a d,>2. q4 |
+    <g d>4 <b g>8 <g d> <g d>4 <b g>8 <g d> |
+    <d' g,>4 <cis g> r2 |
+  }
+  <<
+    \relative g' {
+      r2 g2 |
+      r2 a2 |
+    }
+    \\
+    \relative d' {
+      r2 b8( cis d b) |
+      r2 d8( e fis d) |
+    }
+  >>
+  \relative g' {
+    <g d>4 <b g>8 <g d> <g d>4 <b g>8 <g d> |
+    <d' g,>4 <cis g> r2 |
+  }
+  <<
+    \relative g' {
+      r2 g2 |
+      r2 a2 |
+    }
+    \\
+    \relative d' {
+      r2 b8( cis d b) |
+      r2 d8( e fis d) |
+    }
+  >>
+  \relative g' {
+    <g e>2 <fis d>4 <e cis> |
+    <fis d>2 <b g d>~ |
+    <a fis d>~ <a g cis,>~ |
+    <a fis d>4 a8 fis d4 r
+  }
 }
 
 orgelLHNotenKyrieATreVociHaydn = \tempTranspose \relative c {
