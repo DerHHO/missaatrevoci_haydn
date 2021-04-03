@@ -834,6 +834,8 @@ orgelRHNotenBenedictusATreVociHaydn = \tempTranspose \relative c' {
     c e d c b a |
     b8 c16 a g4 fis | \mBreak
   }
+  \globalHosannaBenedictusATreVociHaydn
+  s1*23
 }
 
 orgelLHNotenBenedictusATreVociHaydn = \tempTranspose \relative c {
@@ -941,6 +943,50 @@ orgelLHNotenBenedictusATreVociHaydn = \tempTranspose \relative c {
     a2 a,4 |
     d4 r r |
     R2.*2 | \mBreak
+    R2. |
+    R2.\fermata |
+    g2. |
+    g2 b8 g |
+    fis8 e d4 fis |
+    g8 d g b, d g, | \mBreak
+    c2. |
+    c |
+    c4 d d |
+    g8 d g d b d |
+    g4 g, g' | \mBreak
+    c,2 r4 |
+    e2. |
+    gis4 a r |
+    R2.*2 | \mBreak
+    d2 c4 |
+    b4 r r |
+    c8( e d c) b( a) |
+    a( c b a) g( fis) |
+    g4 d' d, | \mBreak
+    \globalHosannaBenedictusATreVociHaydn
+    g8 g fis g d g b, g' |
+    g, g' fis g d g b, g' |
+    g, g' fis g e g c, g' |
+    fis a d, a' fis a d, a' | \mBreak
+    b,8 g' fis g d g b, g' |
+    b b, a' a, g' g, fis' fis, |
+    e' e, e' fis g4 c, |
+    d2 d | \mBreak
+    g,8 g' fis g d g b, g' |
+    g,4 r r2 |
+    R1 |
+    f'2 f |
+    e c8 c' a c | \mBreak
+    d, d' cis d d4 d, |
+    g,8 g' fis g d g b, g' |
+    g,2 r2 |
+    R1 |
+    e'2 gis4 e | \mBreak
+    a2 c,8 c' a c |
+    d, d' cis d c, c' b c |
+    b, b' g b c, c' a c |
+    d4 d d, d |
+    g, r4 r2 \bar "|."
   }
 }
 

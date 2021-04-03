@@ -20,7 +20,7 @@ tempTranspose = #(define-music-function (music)
 
 
 ablaufzeileAgnusATreVociHaydn = {
-  
+
 }
 
 globalAgnusATreVociHaydn = {
@@ -28,23 +28,182 @@ globalAgnusATreVociHaydn = {
   \accidentalStyle modern-voice
   \time 3/4
   \key d\minor
+  \tempo "Adagio" 4 = 80
 }
 
 globalDonaATreVociHaydn = {
-  \tempo "Allegro"
   \time 4/4
   \bar "||"
   \key d\major
+  \tempo "Allegro" 4 = 120
 }
 
-violineINotenAgnusATreVociHaydn = \tempTranspose \relative c' {
+violineINotenAgnusATreVociHaydn = \tempTranspose \relative a' {
   \globalAgnusATreVociHaydn
+  a8\< a a a a a\! |
+  a8([ b cis d]) e8.( f16) |
+  g4 a,( g) |
+  f8.( g16) a4 r |
+  a8.( c32 b a8) a8 a a | \mBreak
+  a8.( c32 b a8) a8 a a |
+  a8.( c32 b a8) a8 a a |
+  <a f>4 <a e> r |
+  R2. |
+  r4 g'8( d bes a) | \mBreak
+  g4 r r |
+  r g'8( ees c bes) |
+  a4 r r |
 
+  g( fis) g |
+  d2. |
+  a4 r r |
+  \relative a' {
+    a8\< a a a a a\! |
+    a8( b cis d) e8. f16 |
+    g4 a,4( g) |
+    a8.( bes16) c4 r |
+    g8.( bes32 a g8) g g g | \mBreak
+    f8.( a32 g f8) f f f |
+    g8.( a16 bes4) a |
+    a4 g r |
+  }
+  \relative f'' {
+    R2. |
+    r4 f8( c a f) | \mBreak
+    cis'4( g'4.) cis,8 |
+    e16([ d cis d]) d4 r |
+    ees8([ g bes g]) ees([ d]) |
+    cis([ e g e]) cis([ d]) |
+    d4.( e32[ d cis d]) e8([ d]) | \mBreak
+    d4( cis) r4 |
+  }
+  \relative d'' {
+    d8\< d d d f,8 f |
+    e8(\! f g a) bes( g) |
+    bes4( a) g |
+    fis8.([ g16] a4) r8. c16 |
+    c8 c bes bes g8 g | \mBreak
+    d'4 cis r4 |
+    a8.( c32 bes a8) a a a |
+    a2 r4 |
+  }
+  \globalDonaATreVociHaydn
+  \relative d'' {
+    d8 d d a a16( d, fis a) d8\upbow a\upbow |
+    d8 d d b b16( d, g b) d8\upbow b\upbow |
+    d8 d a a g g fis fis |
+    fis4( e8) b'8 cis d e fis |
+    e4 r8 fis,8 g( fis) g( e) |
+    fis( g a4) fis8( a d,4) |
+    g4. a8 b([ a]) b(([ g]) |
+    a([ b] c4) fis,8( a d,4) |
+
+    b'8 b d8 d d d b b |
+    a8([ cis]) d8 d d d a a  |
+    a8([ g b g] fis4) e4 |
+    fis8( g a g ) g8( fis) e8-. d-. |
+
+    b'8 8 d8 8 8 cis8 d8([ b]) |
+    a([ cis]) d8 8 8 a8 fis[ a] |
+    a([ g]) fis8 8 8 8  e e |
+    d8 a' fis d b'2:16 |
+    a8 a a a  cis2:16 |
+    d8 a fis d b'2:16 |
+    a8 a fis fis g4:16 cis4:16 |
+    d4 r e,4\p-. e8.-. e16-. |
+    e4-. e-. e-. fis-. |
+    g2 cis2:16\f | \mBreak
+    d2:16 d4:16 cis4:16 |
+    d4 r e,4\p-. e8.-. e16-. |
+    e4-. e-. e-. fis-. |
+    g2 g2:16\p | 
+    fis4 r cis'2:16\f |
+    d4 r4 r2 \bar "|."
+  }
 }
 
-violineIINotenAgnusATreVociHaydn = \tempTranspose \relative c' {
+violineIINotenAgnusATreVociHaydn = \tempTranspose \relative a' {
   \globalAgnusATreVociHaydn
+  f8\< f f f f f\! |
+  f8([ g a b]) cis8.( d16) |
+  e4 e,2 |
+  d8.( e16) f4 r |
+  a8.( c32 b a8) cis,8 cis cis | \mBreak
+  a'8.( c32 b a8) d,8 d d |
+  a'8.( c32 b a8) g8 f f |
+  d4 cis r4 |
+  a'2 c4 |
+  c16([ d a bes]) bes4 r |
+  b2 d4 |
+  d16([ ees b c]) c4 r |
+  ees4( d) cis |
+  d( c) bes |
+  bes8. a16 g4( f) |
+  e4 r r | \mBreak
+  \relative f' {
+    f8\< f f f f f\! |
+    f8([ g a b]) cis8.( d16) |
+    e4 f,4( e) |
+    f8.( g16) a4 r |
+    g8.( bes32 a g8) g g g | \mBreak
+    f8.( a32 g f8) f f f |
+    e8.( f16 g4) f |
+    f4 e r |
+  }
+  \relative c'' {
+    c4..( b32[ c d8]) bes |
+    a16([ bes a bes]) c4 r |
+    R2. |
+    r4 a'8( f) cis( d) |
+    ees8([ g, bes g]) ees([ d]) |
+    cis([ e g e]) cis([ d]) |
+    d4.( e32[ d cis d]) e8([ d]) | \mBreak
+    d4( cis) r4 |
+  }
+  \relative f' {
+    f8\< f f f d d |
+    e8(\! d e f) g( e) |
+    e2 e4 |
+    d8.( e16 fis4) r8. d16 |
+    d8 d d d d d | \mBreak
+    g4 g r |
+    r4 r8 g f d |
+    cis2 r4 |
+  }
+  \globalDonaATreVociHaydn
+  \relative fis' {
+    fis8 fis fis fis a16( d, fis a) d8\upbow a\upbow |
+    b8 b b b b16( d, g b) d8\upbow b\upbow |
+    fis fis fis fis e e d d  |
+    d4( cis8) b8 cis d e fis |
+    e4 r8 d e( d) e( cis) |
+    d( e fis4) fis8( a d,4) |
+    e4. fis8 g([ fis]) g([ e]) |
+    fis([ g] a4) fis8( a d,4) |
 
+    g8 g b b b b g g |
+    a8( g) fis fis fis fis fis fis |
+    fis8([ e g e] d4) cis4 |
+    fis8( g a g ) g8( fis) e8-. d-. |
+
+    g8 8 b8 b b8[ a] b[ g] |
+    a8( g) fis fis a a d, d |
+    fis8([ e]) d8 d d d cis cis |
+    d8 a' fis d d2:16 |
+    d8 d fis fis e2:16 | \mBreak
+    fis8 d' a fis d2:16 |
+    d8 d d d e4:16 g4:16 |
+    fis4 r4 d4\p-. d8.-. 16-. |
+    d4-. d-. cis-. d-. |
+    e2 a2:16\f | \mBreak
+    a4:16 fis4:16 e2:16 |
+    fis4 r d4\p-. d8.-. 16-. |
+    d4-. d-. cis-. d-. |
+    e2 e2:16\p | 
+    d4 r g2:16\f |
+    fis4 r r2 | 
+    \bar "|."
+  }
 }
 
 sopranNotenAgnusATreVociHaydn = \tempTranspose \relative a' {
@@ -118,7 +277,7 @@ sopranNotenAgnusATreVociHaydn = \tempTranspose \relative a' {
     R1 |
     r2 g,2-\tweak X-offset #-3 \p |
     fis4 r e2 |
-    d4 r r2 | 
+    d4 r r2 |
     \bar "|."
   }
 }
@@ -141,11 +300,11 @@ sopranTextAgnusATreVociHaydn = \lyricmode {
   A -- gnus De -- i,
   A -- gnus De -- i,
   qui tol -- lis pec -- ca -- ta mun -- di:
-  
+
   Do -- na, do -- na,
-  do -- na no -- bis pa -- cem, 
-  do -- na no -- bis pa -- cem, 
-  do -- na no -- bis pa -- cem, 
+  do -- na no -- bis pa -- cem,
+  do -- na no -- bis pa -- cem,
+  do -- na no -- bis pa -- cem,
   do -- na no -- bis, do -- na pa -- cem,
   do -- na, do -- na no -- bis pa -- cem,
   do -- na no -- bis pa -- cem,
@@ -153,7 +312,7 @@ sopranTextAgnusATreVociHaydn = \lyricmode {
   do -- na no -- bis pa -- cem,
   do -- na pa -- cem.
 
-  
+
 }
 
 altNotenAgnusATreVociHaydn = \tempTranspose \relative c' {
@@ -235,19 +394,19 @@ altTextAgnusATreVociHaydn = \lyricmode {
   A -- gnus De -- i,
   A -- gnus De -- i,
   qui tol -- lis pec -- ca -- ta mun -- di:
-  
+
   Do -- na, do -- na,
-  do -- na no -- bis pa -- cem, 
-  do -- na no -- bis pa -- cem, 
-  do -- na no -- bis pa -- cem, 
-  do -- na no -- bis pa -- cem, 
+  do -- na no -- bis pa -- cem,
+  do -- na no -- bis pa -- cem,
+  do -- na no -- bis pa -- cem,
+  do -- na no -- bis pa -- cem,
   do -- na pa -- cem,
   do -- na no -- bis pa -- cem,
   do -- na pa -- cem, do -- na no -- bis pa -- cem,
-  do -- na no -- bis pa -- cem, 
+  do -- na no -- bis pa -- cem,
   do -- na no -- bis pa -- cem,
   do -- na pa -- cem.
-  
+
 }
 
 bassNotenAgnusATreVociHaydn = \tempTranspose \relative c {
@@ -329,13 +488,13 @@ bassTextAgnusATreVociHaydn = \lyricmode {
   A -- gnus De -- i,
   A -- gnus De -- i,
   qui tol -- lis pec -- ca -- ta mun -- di:
-  
+
   Do -- na, do -- na,
-  do -- na no -- bis pa -- cem, 
+  do -- na no -- bis pa -- cem,
   do -- na no -- bis,
   no -- bis pa -- cem, do -- na,
   do -- na no -- bis pa -- cem,
-  do -- na, do -- na no -- bis pa -- cem, 
+  do -- na, do -- na no -- bis pa -- cem,
   do -- na no -- bis pa -- cem,
   do -- na no -- bis pa -- cem,
   do -- na no -- bis pa -- cem,
@@ -369,7 +528,7 @@ continuoNotenAgnusATreVociHaydn = \tempTranspose \relative c {
   c,2.~ |
   c2 r4 |
   c4( d) e |
-  f4 r r | \mBreak
+  f4 a r | \mBreak
   e2 g4 |
   f4( d) f |
   g2 f4 |
@@ -412,26 +571,28 @@ continuoNotenAgnusATreVociHaydn = \tempTranspose \relative c {
     d,4 r gis4-.\p gis8. gis16 |
     gis4-. e-. a2~ |
     a2 r2 |
-    d,4 r a' r |
+    d,4 r a'\f r |
     d, r r2 \bar "|."
   }
 }
 
 orgelRHNotenAgnusATreVociHaydn = \tempTranspose \relative c' {
   \globalAgnusATreVociHaydn
-
+  s2.*40
+  \globalDonaATreVociHaydn
+  s1*28
 }
 
 orgelLHNotenAgnusATreVociHaydn = \tempTranspose \relative c {
   \globalAgnusATreVociHaydn
-
+  \continuoNotenAgnusATreVociHaydn
 }
 
 metronomZeileAgnusATreVociHaydn = \drummode {
 }
 \include "defAgnusATreVociHaydn.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "AgnusATreVociHaydn-Arbeitspartitur"
@@ -469,4 +630,4 @@ metronomZeileAgnusATreVociHaydn = \drummode {
     \scoreAgnusATreVociHaydn
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***

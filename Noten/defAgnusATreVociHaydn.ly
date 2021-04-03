@@ -8,7 +8,7 @@ chorpartiturAgnusATreVociHaydn = {
       \new Staff \with {
         instrumentName = "Sopran"
         shortInstrumentName = "S"
-        midiInstrument = "acoustic grand"
+        midiInstrument = "trombone"
 
       }
       <<
@@ -29,7 +29,7 @@ chorpartiturAgnusATreVociHaydn = {
       \new Staff \with {
         instrumentName = "Alt"
         shortInstrumentName = "A"
-        midiInstrument = "acoustic grand"
+        midiInstrument = "trombone"
 
       }
       <<
@@ -50,7 +50,7 @@ chorpartiturAgnusATreVociHaydn = {
       \new Staff \with {
         instrumentName = "Bass"
         shortInstrumentName = "B"
-        midiInstrument = "acoustic grand"
+        midiInstrument = "trombone"
 
       }
       <<
@@ -74,7 +74,7 @@ orgelsystemAgnusATreVociHaydn = {
     \new PianoStaff <<
 
       \set PianoStaff.instrumentName = "Orgel"
-      \set PianoStaff.shortInstrumentName = "Org."	<<
+      \set PianoStaff.shortInstrumentName = "Org." <<
 
         \new Staff \with {
           instrumentName = ""
@@ -130,7 +130,7 @@ scoreAgnusATreVociHaydn = {
     \new Staff \with {
       instrumentName = "Violine 1"
       shortInstrumentName = "Vl. 1"
-      midiInstrument = "acoustic grand"
+      midiInstrument = "string ensemble 1"
 
     }
     <<
@@ -151,7 +151,7 @@ scoreAgnusATreVociHaydn = {
     \new Staff \with {
       instrumentName = "Violine 2"
       shortInstrumentName = "Vl. 2"
-      midiInstrument = "acoustic grand"
+      midiInstrument = "string ensemble 1"
 
     }
     <<
@@ -174,7 +174,7 @@ scoreAgnusATreVociHaydn = {
     \new Staff \with {
       instrumentName = "Basso continuo"
       shortInstrumentName = "B.c."
-      midiInstrument = "acoustic grand"
+      midiInstrument = "contrabass"
 
     }
     <<

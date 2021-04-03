@@ -56,32 +56,32 @@ violineINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
   a8 a a a  cis cis cis cis |
   d8 fis8 a g fis e d cis |
 
-  d4 fis8[ e] d4 d8 cis |
+  d4 fis8([ e]) d4 d8 cis |
   b d fis e d cis b ais |
-  b4 d8 cis b4 b8 a |
+  b4 d8( cis) b4 b8 a |
   g b d cis b a g fis |
 
   b4( a g) fis |
-  e4 r fis fis |
-  g2 fis |
+  e4 r fis\upbow fis\upbow |
+  g2( fis) |
   e2 r2 |
 
-  d'2 \f fis,4 fis |
+  d'2 \f fis,4\upbow fis\upbow |
   g4 b r2 |
   e,4 \p e fis4 fis |
   e4 r4 r2 |
-  b'4. \f b8 cis,2 |
-  d4 fis8 fis g4 b8 b |
+  b'4. \f b8\upbow cis,2\upbow |
+  d4 fis8\upbow fis\upbow g4 b8\upbow b\upbow |
   a8 a a a cis cis cis cis |
   d8 d a fis a4 a |
 
   b2 g |
   fis4. a8 a8 d a fis
-  b2 g4 g |
+  b2 g4\upbow g\upbow |
   fis4.( a8) a8 fis a d |
 
   bes2 bes4 bes |
-  bes4 a a a |
+  bes4( a) a a |
   a1 |
   a |
   bes2 bes |
@@ -89,12 +89,12 @@ violineINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
   a2 a |
   a2. r4 |
 
-  d4( fis8[ e]) d4 d |
+  d4( fis8[ e] d4) d |
   d8 fis a g fis e d cis |
   d4.( cis8 b4) b4 |
   b8 d fis e d cis b a |
   b8 fis g a g b d cis |
-  b4 a b e8 e |
+  b4( a) b e8 e |
   d8 d d d  cis cis cis cis |
   d8 d fis e d cis b a |
 
@@ -138,16 +138,16 @@ violineINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
     e,4 \p e fis fis |
     fis( e) r2 |
     b'2 \f cis, |
-    d4. e8 fis4 g |
+    d4.( e8 fis4) g |
     a8 a a a  cis cis e e  |
     fis8 fis8 a g fis e d cis |
     b2 g4 g |
-    fis4. a8 fis8 d' a fis |
+    fis4.( a8 fis8) d' a fis |
     b2 g |
-    fis4.( a8) a8 d b g |
+    fis4.( a8) a8 d b\upbow g\upbow |
     c2 c |
-    b4. a8 g4 a |
-    b4 d8 d e8 e fis fis
+    b4.( a8 g4) a |
+    b4 d8\upbow d\upbow e8 e fis fis
     g4 cis, r2 |
     d4( fis8[ e] d4) d4 |
     b8 d fis e d cis b ais |
@@ -158,7 +158,7 @@ violineINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
     d8 d d d cis cis e g |
     fis8 d fis e d cis b a |
     b8 fis g a g b d cis |
-    d4 d d g8 g |
+    d4 d d g8 g\upbow |
     fis8 fis fis fis e cis' cis cis |
     d4 r4 r2 |
     \bar "|."
@@ -182,40 +182,40 @@ violineIINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
   g b d cis b a g fis' |
 
   g4( fis e) d |
-  cis4 r d d |
-  e2 d |
+  cis4 r d\upbow d\upbow |
+  e2( d) |
   cis2 r |
 
-  d'2\f fis,4 fis |
+  d'2\f fis,4\upbow fis\upbow |
   g4 b r2 |
   cis,4 \p 4 d4 d |
   cis r4 r2 |
-  b'4.\f b8 cis,2 |
-  d4 fis8 fis g4 d8 d |
+  b'4.\f b8\upbow cis,2\upbow |
+  d4 fis8\upbow fis\upbow g4 d8\upbow d\upbow |
   fis8 fis fis fis e e g g |
   fis8 d' a fis fis4 fis |
 
   g2 e |
   d4. fis8 fis8 d' a fis
-  g2 e4 e |
+  g2 e4\upbow e\upbow |
   d4.( fis8) fis8 fis a d |
 
   R1 |
   \relative e' {
     e2 cis4 e |
-    f4 e8[ f] g4 f |
-    f2 e |
-    R1 |
-    e2 cis4( e) |
     f4( e8[ f]) g4 f |
-    f4. e8 e4 r4
+    f2( e) |
+    R1 |
+    e2 cis4\upbow e\upbow |
+    f4( e8[ f] g4) f |
+    f4.( e8) e4 r4
 
-    fis4( d4) a' fis |
+    fis4( d4 a') fis |
     d8 fis a g fis e d cis |
     fis2. d4 |
     b8 d fis e d cis b a |
     d8 fis g a g b d cis |
-    d4 d d g8 g |
+    d4( d) d g8 g |
     fis8 fis fis fis e e e e |
     d8 d fis e d cis b a |
 
@@ -261,16 +261,16 @@ violineIINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
     cis,4\p cis d d |
     d( cis) r2 |
     b'2\f cis, |
-    d4. e8 fis4 g |
+    d4.( e8 fis4) g |
     fis8 fis fis fis e e g g |
     a8 fis a g fis e d cis |
     g'2 e4 e |
-    d4. fis8 fis8 d' a fis
+    d4.( fis8 fis8) d' a fis
     g2 e |
-    d4.( fis8) fis8 d' b g |
+    d4.( fis8) fis8 d' b\upbow g\upbow |
     a2 a |
     d,4. d8 d4 fis |
-    g4 a8 a g8 g a a |
+    g4 a8\upbow a\upbow g8 g a a |
     a4 g r2 |
     R1 |
     b8 d fis e d cis b ais |
@@ -281,7 +281,7 @@ violineIINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
     fis8 fis fis fis  e e g cis
     d8 d fis e d cis b a |
     d8 fis, g a g b d cis |
-    b4 a b e8 e |
+    b4( a b) e8\upbow e\upbow |
     d8 d d d  cis e e e |
     fis4 r r2 |
     \bar "|."
@@ -832,19 +832,23 @@ continuoNotenGloriaATreVociHaydn = \tempTranspose \relative d' {
 
 orgelRHNotenGloriaATreVociHaydn = \tempTranspose \relative c' {
   \globalGloriaATreVociHaydn
-
+  s1*48
+  \globalQuiTollisGloriaATreVociHaydn
+  s2.*24
+  \globalQuoniamGloriaATreVociHaydn
+  s1*29
 }
 
 orgelLHNotenGloriaATreVociHaydn = \tempTranspose \relative c {
   \globalGloriaATreVociHaydn
-
+  \continuoNotenGloriaATreVociHaydn
 }
 
 metronomZeileGloriaATreVociHaydn = \drummode {
 }
 \include "defGloriaATreVociHaydn.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "GloriaATreVociHaydn-Arbeitspartitur"
@@ -882,4 +886,4 @@ metronomZeileGloriaATreVociHaydn = \drummode {
     \scoreGloriaATreVociHaydn
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***

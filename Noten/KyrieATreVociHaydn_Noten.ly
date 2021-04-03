@@ -20,7 +20,7 @@ tempTranspose = #(define-music-function (music)
 
 
 ablaufzeileKyrieATreVociHaydn = {
-  
+
 }
 
 globalKyrieATreVociHaydn = {
@@ -33,61 +33,61 @@ globalKyrieATreVociHaydn = {
 
 violineINotenKyrieATreVociHaydn = \tempTranspose \relative d'' {
   \globalKyrieATreVociHaydn
-  d8 d d a a16 d, fis a d8 a |
-  d8 d d b b16 d, g b d8 b |
+  d8 d d a a16( d, fis a) d8\upbow a\upbow |
+  d8 d d b b16( d, g b) d8\upbow b\upbow |
   d8 d a a g g fis fis |
   fis4( e8) b'8 cis d e fis |
-  e4 r8 fis,8 g fis g e |
-  fis g a4 fis8 a d,4 |
-  g4. a8 b[ a] b[ g] |
-  a[ b] c4 fis,8 a d,4 |
+  e4 r8 fis,8 g( fis) g( e) |
+  fis( g a4) fis8( a d,4) |
+  g4. a8 b([ a]) b([ g]) |
+  a([ b] c4) fis,8( a d,4) |
 
   b'8 b d8 d d d b b |
   a8[ cis] d8 d d d a a  |
   a8([ g b g] fis4) e4 |
   fis8( g a g ) g8( fis) e8-. d-. |
 
-  b'8 8 d8 8 8 cis8 d8([ b]) |
-  a[ cis] d8 8 8 a8 fis[ a] |
+  b'8 8 d8 8 8( cis8) d8([ b]) |
+  a([ cis]) d8 8 8( a8) fis([ a]) |
   a([ g]) fis8 8 8 8  e e |
-  d4 a'8 fis d4 r |
+  d4 a'8\upbow fis\upbow d4 r |
   \relative a'' {
     a4.( e8) e4 r |
     a4.( d,8) d4 r |
     fis2( e4) d |
-    cis4.( d8) e16 a, b cis d e fis gis | \mBreak
+    cis4.( d8 e16) a,( b cis) d( e) fis( gis) | \mBreak
 
     a4.( e8) e4 r |
     a4.( d,8) d4 r |
     d4.( e16[ d]) cis4 b |
-    b4.( cis8) a16 a' gis a e a cis, e |
-    a,2 a4 a |
-    a8[ b] b4 b'8( gis e d) |
-    cis2 cis4 cis |
-    cis8[ d] d4 d'8( a f d) |
+    b4.( cis8 a16) a'( gis a) e( a) cis,( e) |
+    a,2 a4\upbow a\upbow |
+    a8([ b]) b4 b'8( gis) e\upbow d\upbow |
+    cis2 cis4\upbow cis\upbow |
+    cis8([ d]) d4 d'8( a) f\upbow d\upbow |
 
     d2( fis4) d |
-    cis4.( d8) e2 |
-    r4 d cis( b) |
+    cis4.( d8 e2) |
+    r4 d cis b |
     b2( cis) | \mBreak
     d4.( e8) fis8[ e fis d] |
     cis4.( d8) e2 |
     r4 d cis4( b) |
-    a8 b16 a g8 fis g e a cis |
+    a8 b16( a) g8 fis g e a cis |
   }
   \relative d'' {
-    d8 d d a a16 d, fis a d8 a |
-    d8 d d b b16 d, g b d8 b |
+    d8 d d a a16( d, fis a) d8\upbow a\upbow |
+    d8 d d b b16( d, g b) d8\upbow b\upbow |
     d8 d a a g g fis fis |
     fis4( e8) b'8 cis d e fis |
-    e4 r8 fis,8 g fis g e |
-    fis g a4 fis8 a d,4 |
-    g4. a8 b[ a] b[ g] |
-    a[ b] c4 fis,8 a d,4 |
+    e4 r8 fis,8 g( fis) g( e) |
+    fis( g a4) fis8( a d,4) |
+    g4. a8 b([ a]) b(([ g]) |
+    a([ b]) c4 fis,8( a) d,4 |
     bes'8 bes d bes bes bes d bes |
     a8 a a a  a a a a |
     g8 g bes g  g g bes g |
-    d'4 cis r2 | 
+    d'4 cis r2 |
     d4.( g,8) g2 |
     d'4.( a8) a2 |
     g2 g4 g |
@@ -96,45 +96,45 @@ violineINotenKyrieATreVociHaydn = \tempTranspose \relative d'' {
     d'4.( a8) a2 |
     r4 g4 fis4( e) |
     fis8 d fis a b d, g b |
-    a8 fis a d cis a' e cis | 
+    a8 fis a d cis a' e cis |
     d4 a8 fis d4 r \bar "|."
   }
 }
 
 violineIINotenKyrieATreVociHaydn = \tempTranspose \relative c' {
   \globalKyrieATreVociHaydn
-  fis8 fis fis fis a16 d, fis a d8 a |
-  b8 b b b b16 d, g b d8 b |
+  fis8 fis fis fis a16( d, fis a) d8\upbow a\upbow |
+  b8 b b b b16( d, g b) d8\upbow b\upbow |
   fis fis fis fis e e d d  |
   d4( cis8) b8 cis d e fis |
-  e4 r8 d e d e cis |
-  d e fis4 fis8 a d,4 |
-  e4. fis8 g[ fis] g[ e] |
-  fis[ g] a4 fis8 a d,4 |
+  e4 r8 d e( d) e( cis) |
+  d( e fis4) fis8( a d,4) |
+  e4. fis8 g([ fis]) g([ e]) |
+  fis([ g] a4) fis8( a d,4) |
 
   g8 g b b b b g g |
   a8 a fis fis a a fis fis |
   fis8([ e g e] d4) cis4 |
   fis8( g a g ) g8( fis) e8-. d-. |
 
-  g8 8 b8 b b8[ a] b[ g] |
-  a8 a fis fis a a d, d |
+  g8 8 b8 b b8([ a]) b([ g]) |
+  a8( g) fis fis a a d, d |
   fis8([ e]) d8 d d d cis cis |
-  d4 a'8 fis d4 r |
+  d4 a'8\upbow fis\upbow d4 r |
   \relative cis' {
     cis8( d e d cis4) r4 |
     d8( e fis e d4) r4 |
     d'2( cis4) b |
-    a4.( b8) cis16 a, b cis d e fis gis | \mBreak
+    a4.( b8 cis16) a,( b cis) d( e) fis( gis) | \mBreak
 
     cis,8( d e d cis4) r4 |
     d8( e fis e d4) r4 |
     b'4.( cis16 b) a4 e |
-    gis4.( a8) r16 a gis a e a cis, e |
+    gis4.( a8) r16 a( gis a) e( a) cis,( e) |
     a8( e cis e) a8( e cis e) |
     b( d e d) b'( gis e d) |
     a'( e cis e) a( e cis e)  |
-    d( f a f) d'( a f d) |
+    d( f a f) d'( a) f\upbow d\upbow |
     b'( gis e gis) b( e, d e) |
     e( a e b') cis( a e a) |
     fis( b fis b) a( e gis e) |
@@ -142,17 +142,17 @@ violineIINotenKyrieATreVociHaydn = \tempTranspose \relative c' {
     d( a' d a) fis( a d a) |
     e( d cis b) a( e' cis a) |
     b( fis' b fis) a( e gis d) |
-    cis8 b'16 a g8 fis g e a g |
+    cis8 b'16( a) g8 fis g e a g |
   }
   \relative fis' {
-    fis8 fis fis fis a16 d, fis a d8 a |
-    b8 b b b b16 d, g b d8 b |
+    fis8 fis fis fis a16( d, fis a) d8\upbow a\upbow |
+    b8 b b b b16( d, g b) d8\upbow b\upbow |
     fis fis fis fis e e d d  |
     d4( cis8) b8 cis d e fis |
-    e4 r8 d e d e cis |
-    d e fis4 fis8 a d,4 |
-    e4. fis8 g[ fis] g[ e] |
-    fis[ g] a4 fis8 a d,4 |
+    e4 r8 d e( d) e( cis) |
+    d( e fis4) fis8( a d,4) |
+    e4. fis8 g([ fis]) g([ e]) |
+    fis([ g]) a4 fis8( a) d,4 |
     d8 d d d d d d d |
     d8 d d d d d d d |
     d8 d d d d d d d |
@@ -167,9 +167,9 @@ violineIINotenKyrieATreVociHaydn = \tempTranspose \relative c' {
     r2 d,8( e fis d) |
     r4 e4 d( cis) |
     d8 d fis a b d, g b |
-    a8 fis a d cis a e g | 
+    a8 fis a d cis a e g |
     fis4 a8 fis d4 r \bar "|."
-    
+
   }
 }
 
@@ -219,7 +219,7 @@ sopranNotenKyrieATreVociHaydn = \tempTranspose \relative d'' {
     d4. b8 b4 r4 |
     d4 a g fis |
     fis e r2 | \mBreak
-    e4. fis8 g[ fis] e[ e] |
+    e4. fis8 g[ fis] g[ e] |
     fis[ g] a4 r2 |
     g4. a8 b[ a] b[ g] |
     a[ b] c4 r2 | \mBreak
@@ -453,19 +453,19 @@ continuoNotenKyrieATreVociHaydn = \tempTranspose \relative c {
 
 orgelRHNotenKyrieATreVociHaydn = \tempTranspose \relative c' {
   \globalKyrieATreVociHaydn
-
+  s1*58
 }
 
 orgelLHNotenKyrieATreVociHaydn = \tempTranspose \relative c {
   \globalKyrieATreVociHaydn
-
+  \continuoNotenKyrieATreVociHaydn
 }
 
 metronomZeileKyrieATreVociHaydn = \drummode {
 }
 \include "defKyrieATreVociHaydn.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "KyrieATreVociHaydn-Arbeitspartitur"
@@ -477,6 +477,9 @@ metronomZeileKyrieATreVociHaydn = \drummode {
     \removeWithTag #'chorpartitur
     \removeWithTag #'midiausgabe
     \scoreKyrieATreVociHaydn
+  }
+  \paper {
+    ragged-last-bottom = ##f
   }
 }
 
@@ -503,4 +506,4 @@ metronomZeileKyrieATreVociHaydn = \drummode {
     \scoreKyrieATreVociHaydn
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***

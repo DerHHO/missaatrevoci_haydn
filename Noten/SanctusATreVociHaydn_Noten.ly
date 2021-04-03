@@ -44,12 +44,12 @@ vorspielpausenSanctusATreVociHaydn = {
 violineINotenSanctusATreVociHaydn = \tempTranspose \relative d' {
   \globalSanctusATreVociHaydn
   d8. d16 fis8. d16 a'8. fis16 |
-  d'8. fis32 e d8 d cis16 d e d |
+  d'8.( fis32 e) d8\upbow d\upbow cis16( d e d) |
   d4 d,8. b16 fis'8. d16 |
-  d'8. fis32 e d8 d cis16 d e d | \mBreak
+  d'8. fis32 e d8\upbow d\upbow cis16( d) e( d) | \mBreak
   b8. 16 8. 16 8. 16 |
   b8[ 8] a8 a e'8[ e] |
-  d8. fis32 e d8 d cis16 d e d |
+  d8.-\simileMarkup fis32 e d8 d cis16 d e d |
   d8. fis32 e d8 d cis16 d e d |
   d8. fis32 e d8 d cis16 d e d |
   cis8. e16 a8 a a a |
@@ -65,8 +65,8 @@ violineINotenSanctusATreVociHaydn = \tempTranspose \relative d' {
     e4 e8\upbow e\upbow a,4 a |
     b4 cis8\upbow cis\upbow d4 e8\upbow e\upbow | \mBreak
     d4( cis) d4 r |
-    r d\upbow cis a |
-    r d\upbow b e | \mBreak
+    r d\<\upbow cis\> a\! |
+    r-\simileMarkup d\upbow b e | \mBreak
     r4 cis\upbow a d |
     d4\< d cis2\>( |
     d4\!) a fis b | \mBreak
@@ -85,12 +85,12 @@ violineINotenSanctusATreVociHaydn = \tempTranspose \relative d' {
 violineIINotenSanctusATreVociHaydn = \tempTranspose \relative d' {
   \globalSanctusATreVociHaydn
   d8. d16 fis8. d16 a'8. fis16 |
-  d'8. fis32 e d8 d cis16 d e d |
+  d'8.( fis32 e) d8\upbow d\upbow cis16( d e d) |
   d4 d,8. b16 fis'8. d16 |
-  d'8. fis32 e d8 d cis16 d e d | \mBreak
+  d'8. fis32 e d8\upbow d\upbow cis16( d) e( d) | \mBreak
   d,8. 16 g8. 16 fis8. 16 |
   e8[ 8] 8[ 8] cis'8 cis |
-  d8. fis32 e d8 d cis16 d e d |
+  d8.-\simileMarkup fis32 e d8 d cis16 d e d |
   b8. d32 cis b8 b ais16 b cis b | \mBreak
   b8. d32 cis b8 b a16 b cis b | 
   cis8. e16 a8 a a a |
@@ -109,8 +109,8 @@ violineIINotenSanctusATreVociHaydn = \tempTranspose \relative d' {
     d4 8\upbow 8\upbow 4 g8\upbow g\upbow | \mBreak
     g2( fis4) fis |
     d\< g e2(\> |
-    fis4)\! fis d g | \mBreak
-    r4 e\upbow cis fis |
+    fis4)\! fis\< d\> g\! | \mBreak
+    r4 e\upbow -\simileMarkup cis fis |
     r d\upbow \< b8 b e e |
     e2\> cis\! | \mBreak
     d4 e fis( e) |
@@ -317,12 +317,15 @@ continuoNotenSanctusATreVociHaydn = \tempTranspose \relative d {
 
 orgelRHNotenSanctusATreVociHaydn = \tempTranspose \relative c' {
   \globalSanctusATreVociHaydn
-
+  s2.*16 |
+  \globalHosannaSanctusATreVociHaydn
+  s1*17
+  
 }
 
 orgelLHNotenSanctusATreVociHaydn = \tempTranspose \relative c {
   \globalSanctusATreVociHaydn
-
+  \continuoNotenSanctusATreVociHaydn
 }
 
 metronomZeileSanctusATreVociHaydn = \drummode {
