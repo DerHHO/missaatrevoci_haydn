@@ -68,15 +68,15 @@ violineINotenKyrieATreVociHaydn = \tempTranspose \relative d'' {
 
     d2( fis4) d |
     cis4.( d8 e2) |
-    r4 d cis b |
+    r4 d\upbow cis( b) |
     b2( cis) | \mBreak
-    d4.( e8) fis8[ e fis d] |
-    cis4.( d8) e2 |
-    r4 d cis4( b) |
-    a8 b16( a) g8 fis g e a cis |
+    d4.( e8 fis8) e( fis d) |
+    cis4.( d8 e2) |
+    r4 d\upbow cis4( b |
+    a8) b16(\< a) g8 fis g e a cis |
   }
   \relative d'' {
-    d8 d d a a16( d, fis a) d8\upbow a\upbow |
+    d8\! d d a a16( d, fis a) d8\upbow a\upbow |
     d8 d d b b16( d, g b) d8\upbow b\upbow |
     d8 d a a g g fis fis |
     fis4( e8) b'8 cis d e fis |
@@ -141,11 +141,11 @@ violineIINotenKyrieATreVociHaydn = \tempTranspose \relative c' {
     gis( d e gis) a( cis, e cis) |
     d( a' d a) fis( a d a) |
     e( d cis b) a( e' cis a) |
-    b( fis' b fis) a( e gis d) |
-    cis8 b'16( a) g8 fis g e a g |
+    b( fis' b fis) a( e gis d |
+    cis8) b'16(\< a) g8 fis g e a g |
   }
   \relative fis' {
-    fis8 fis fis fis a16( d, fis a) d8\upbow a\upbow |
+    fis8\! fis fis fis a16( d, fis a) d8\upbow a\upbow |
     b8 b b b b16( d, g b) d8\upbow b\upbow |
     fis fis fis fis e e d d  |
     d4( cis8) b8 cis d e fis |
@@ -514,7 +514,7 @@ orgelRHNotenKyrieATreVociHaydn = \tempTranspose \relative a' {
     q8( <b e, d>) q4 r2 |
     <cis a e>2. q4 |
     <cis a e>8( <d a f>) q4 r2 |
-    <d gis e>2. q4 |
+    <d gis, e>2. q4 |
     <cis a e>2. q4 |
     <b fis d>2 <cis a e>4( <b gis e>) |
     <b gis d>2( <a e cis>) |
@@ -580,7 +580,7 @@ metronomZeileKyrieATreVociHaydn = \drummode {
 }
 \include "defKyrieATreVociHaydn.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "KyrieATreVociHaydn-Arbeitspartitur"
@@ -621,4 +621,4 @@ metronomZeileKyrieATreVociHaydn = \drummode {
     \scoreKyrieATreVociHaydn
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***

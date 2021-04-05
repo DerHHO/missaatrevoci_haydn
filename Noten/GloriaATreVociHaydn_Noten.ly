@@ -28,7 +28,7 @@ globalGloriaATreVociHaydn = {
   \taktstil
   \accidentalStyle modern-voice
   \key d\major
-  \time 4/4
+  \time 2/2
 }
 
 globalQuiTollisGloriaATreVociHaydn = {
@@ -40,7 +40,7 @@ globalQuiTollisGloriaATreVociHaydn = {
 
 globalQuoniamGloriaATreVociHaydn = {
   \key d\major
-  \time 4/4
+  \time 2/2
   \bar "||"
   \tempo "Allegro" 2 = 80
 }
@@ -104,7 +104,7 @@ violineINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
   d4 r4 r2 |
   \globalQuiTollisGloriaATreVociHaydn
   \relative bes' {
-    bes8( c) c( d) r4 |
+    bes8(\p c) c( d) r4 |
     r4 f,8( g) g( a) |
     r4 bes8( c) c( d) |
     d4( f) r |
@@ -226,7 +226,7 @@ violineIINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
   }
   \globalQuiTollisGloriaATreVociHaydn
   \relative g' {
-    g8( a) a( bes) r4 |
+    g8(\p a) a( bes) r4 |
     r4 d,8( e) e( f) |
     r4 g8( a) a( bes) |
     f4( b) r |
@@ -1001,7 +1001,7 @@ metronomZeileGloriaATreVociHaydn = \drummode {
 }
 \include "defGloriaATreVociHaydn.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "GloriaATreVociHaydn-Arbeitspartitur"
@@ -1039,4 +1039,4 @@ metronomZeileGloriaATreVociHaydn = \drummode {
     \scoreGloriaATreVociHaydn
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***

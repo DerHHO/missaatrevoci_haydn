@@ -334,7 +334,7 @@ sopranNotenBenedictusATreVociHaydn = \tempTranspose \relative g' {
   ees2.( |
   d2) r4 |
   d2( d'4 |
-  cis) d b |
+  cis) d b! |
   a2 g4 |
   fis4 r r | \mBreak
   e2( d'4 |
@@ -515,7 +515,7 @@ bassTextBenedictusATreVociHaydn = \lyricmode {
 
 continuoNotenBenedictusATreVociHaydn = \tempTranspose \relative g {
   \globalBenedictusATreVociHaydn
-  g2.~ |
+  g2. |
   g2 b8 g |
   fis8 e d4 fis |
   g8 d g b, d g, |
@@ -529,7 +529,7 @@ continuoNotenBenedictusATreVociHaydn = \tempTranspose \relative g {
   g4 d b |
   g4 r r |
   R2. |
-  g'2.~ | \mBreak
+  g'2. | \mBreak
   g2 b8 g |
   fis8 e d4 fis |
   g8 d g b, d g, |
@@ -576,7 +576,7 @@ continuoNotenBenedictusATreVociHaydn = \tempTranspose \relative g {
   r g' bes |
   a fis g |
   a2 ais4 |
-  b4 r r | \mBreak
+  b!4 r r | \mBreak
   r4 gis b |
   g fis g |
   a2 a,4 |
@@ -643,11 +643,11 @@ orgelRHNotenBenedictusATreVociHaydn = \tempTranspose \relative c' {
     }
     \\
     \relative d' {
-      r8 d e d e d |
+      r8 d( e d e d) |
       e4( d) d |
       a'8 g fis e d4 |
       g r r |
-      r8 <g e> <a f> <g e> <a f> <g e> | \mBreak
+      r8 <g e>( <a f> <g e> <a f> <g e>) | \mBreak
       <a f>4( <g e>) q |
       g b a |
       d,4
@@ -693,12 +693,12 @@ orgelRHNotenBenedictusATreVociHaydn = \tempTranspose \relative c' {
     \relative c'' {
       c2.~ |
       c |
-      <c e,>4 <b d,> a~ |
-      a4 g
+      <c e,>4( <b d,>) a~ |
+      a4( g)
     }
     \\
     \relative e' {
-      r8 <g e> <a f> <g e> <a f> <g e> |
+      r8 <g e>( <a f> <g e> <a f> <g e>) |
       <a f>4( <g e>) q | \mBreak
       g2 <d c>4~ |
       q~ <d b>
@@ -735,7 +735,7 @@ orgelRHNotenBenedictusATreVociHaydn = \tempTranspose \relative c' {
     <a f>( <g e>) a |
     bes8 d, g bes a bes | \mBreak
     g8 bes f bes e, bes' |
-    <a f>2 <b d,>4 |
+    <a f>2 <bes d,>4 |
     <a f>( <g e>) r4 |
     r4 <e a,> q |
     r <f a,> q | \mBreak
@@ -748,13 +748,13 @@ orgelRHNotenBenedictusATreVociHaydn = \tempTranspose \relative c' {
       bes4 d |
       cis d b |
       a2 g4 |
-      f4
+      fis4
     }
     \\
     \relative d' {
       d2 |
       g4 a d, |
-      f2 e4 |
+      fis2 e4 |
       d4
     }
   >>
@@ -975,7 +975,7 @@ orgelLHNotenBenedictusATreVociHaydn = \tempTranspose \relative c {
     r g' bes |
     a fis g |
     a2 ais4 |
-    b4 r r | \mBreak
+    b!4 r r | \mBreak
     r4 gis b |
     g fis g |
     a2 a,4 |
@@ -1034,7 +1034,7 @@ metronomZeileBenedictusATreVociHaydn = \drummode {
 }
 \include "defBenedictusATreVociHaydn.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "BenedictusATreVociHaydn-Arbeitspartitur"
@@ -1072,4 +1072,4 @@ metronomZeileBenedictusATreVociHaydn = \drummode {
     \scoreBenedictusATreVociHaydn
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***

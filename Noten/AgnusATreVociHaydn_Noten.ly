@@ -603,7 +603,7 @@ orgelRHNotenAgnusATreVociHaydn = \tempTranspose \relative a' {
     \relative a' {
       fis4 g a |
       <bes g>2 r4 |
-      b4 c d |
+      b4 c <d f,> |
       c2
     }
     \\
@@ -616,14 +616,14 @@ orgelRHNotenAgnusATreVociHaydn = \tempTranspose \relative a' {
   >>
   r4 |
   \relative a' {
-    <a ees>4 <g d>~ <g cis> |
+    <a ees>4 <g d>~ <g cis,> |
     <g d> <fis c> <g d bes> |
     q2. |
     <a g e>4 r r |
   }
   \relative a' {
     <a f d>2 <d a d,>4 |
-    <d a f> <cis a e> r |
+    <d a f>( <cis a e>) r |
     <bes g e> <a f> <g e> |
     <a f>2 r4 |
     <c g e>2. |
@@ -730,7 +730,7 @@ metronomZeileAgnusATreVociHaydn = \drummode {
 }
 \include "defAgnusATreVociHaydn.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "AgnusATreVociHaydn-Arbeitspartitur"
@@ -768,4 +768,4 @@ metronomZeileAgnusATreVociHaydn = \drummode {
     \scoreAgnusATreVociHaydn
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***
