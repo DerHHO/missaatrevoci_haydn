@@ -835,7 +835,45 @@ orgelRHNotenBenedictusATreVociHaydn = \tempTranspose \relative c' {
     b8 c16 a g4 fis | \mBreak
   }
   \globalHosannaBenedictusATreVociHaydn
-  s1*23
+  \relative b' {
+    <g d b>4 r r q |
+    <g d b>1 |
+    <g e c>1 |
+    <a d, c> |
+    <g d b>1 |
+  }
+  <<
+    \relative d'' {
+      d2 b2 |
+      c4. d8 <e c>4 c4 |
+      <b g>2 <a fis> |
+      <g d>1 |
+      <g f d> |
+    }
+    \\
+    \relative g' {
+      g4 fis g2 |
+      g2. <a e>4 |
+      d,1 |
+      b1 |
+      b1 |
+    }
+  >>
+  \relative b' {
+    r4\fermata r r2 |
+    <b g d>1 |
+    <c g e>4. <d g, f>8 <c g>4 <c a e> |
+    <b g d>2~ <a fis d> |
+    <g d b>1 |
+    <b f d>1 |
+    r4\fermata r4 r2 |
+    <d gis, e>2 <d b e,>4 <d gis, e>4 |
+    <c a e>4. <b gis d>8 <a e c>4 <c a e> |
+    <b g d>2 <a fis d> |
+    <g d>2 <c a e>2 |
+    <b g d> <a fis c> |
+    <g d b>4 r r2 \bar "|."
+  }
 }
 
 orgelLHNotenBenedictusATreVociHaydn = \tempTranspose \relative c {
@@ -996,7 +1034,7 @@ metronomZeileBenedictusATreVociHaydn = \drummode {
 }
 \include "defBenedictusATreVociHaydn.ly"
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "BenedictusATreVociHaydn-Arbeitspartitur"
@@ -1034,4 +1072,4 @@ metronomZeileBenedictusATreVociHaydn = \drummode {
     \scoreBenedictusATreVociHaydn
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}

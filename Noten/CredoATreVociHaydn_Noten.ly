@@ -73,7 +73,7 @@ metronomZeileCredoATreVociHaydn = \drummode {
  }
 \include "defCredoATreVociHaydn.ly"
 
-		%***Arbeitspartitur
+		%{Arbeitspartitur
 		#(set-global-staff-size 14)
 		\book { 
  	\bookOutputName "CredoATreVociHaydn-Arbeitspartitur"
@@ -111,5 +111,5 @@ metronomZeileCredoATreVociHaydn = \drummode {
 	\scoreCredoATreVociHaydn 
  } 
  }
-		%Arbeitspartitur***
+		Arbeitspartitur%}
 		

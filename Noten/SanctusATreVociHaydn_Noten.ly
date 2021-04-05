@@ -315,12 +315,69 @@ continuoNotenSanctusATreVociHaydn = \tempTranspose \relative d {
   }
 }
 
-orgelRHNotenSanctusATreVociHaydn = \tempTranspose \relative c' {
+orgelRHNotenSanctusATreVociHaydn = \tempTranspose \relative a' {
   \globalSanctusATreVociHaydn
-  s2.*16 |
+  <a fis d>2.~ |
+  q4 r r |
+  <b fis d>2.~ |
+  q4 r r |
+  <<
+    \relative b' {
+      b2.~ |
+      b4 a g |
+      fis4
+    }
+    \\
+    \relative d' {
+      d4 g fis |
+      e2 cis4 |
+      d4
+    }
+  >>
+  r4 r |
+  \relative b' {
+    <fis d b>2.~ |
+    <e b>2 r4 |
+    <e cis>2 r4 |
+    <fis cis>2 r4 |
+    <fis d>2 r4 |
+    <gis d b>2 r4 |
+    <a e cis>2 r4 |
+    <b gis d>2. |
+    <cis a e>2 r4 |
+  }
   \globalHosannaSanctusATreVociHaydn
-  s1*17
-  
+  <<
+    \relative fis' {
+      fis8 g a b b a fis e | 
+      a1 |
+      <b fis>4 <cis a> <d a> <e b> |
+      <d fis,>4 <cis e,> <d fis,>2 |
+    }
+    \\
+    \relative d' {
+      d1 |
+      e8 fis g e <fis cis>2 |
+      b,8[ d] e4 d g |
+      a1
+    }
+  >>
+  \relative d'' {
+    <d b e,>4 <d gis, e>8 <d b e,> <cis a e>2 |
+    <d a d,>4 <d a fis>8 <d a d,> <b g d>4 <b g e > |
+    <a g e>~ <a g cis,> <a fis d>2 |
+    <b g d>4 <b g e> <a e cis>2 |
+    <a fis d> <b fis d>4 <b g d> |
+    <a g e> <a g cis,> <a fis cis>2 |
+    <b fis d> <b g d>4 <a g cis,> |
+    <a g e>2~ <a g cis,>4 <cis a e> |
+    <d fis, d> <d b g> <d a fis>~ <cis a e>~ |
+    <d a fis>2 <e b g>2 |
+    <d a fis> <cis a e> |
+    <d a fis>2 q |
+    q r2 |
+  }
+  \bar "|."
 }
 
 orgelLHNotenSanctusATreVociHaydn = \tempTranspose \relative c {
@@ -332,7 +389,7 @@ metronomZeileSanctusATreVociHaydn = \drummode {
 }
 \include "defSanctusATreVociHaydn.ly"
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "SanctusATreVociHaydn-Arbeitspartitur"
@@ -370,4 +427,4 @@ metronomZeileSanctusATreVociHaydn = \drummode {
     \scoreSanctusATreVociHaydn
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}

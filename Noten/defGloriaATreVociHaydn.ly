@@ -69,12 +69,15 @@ chorpartiturGloriaATreVociHaydn = {
     >>
   >>
 }
+
 orgelsystemGloriaATreVociHaydn = {
   <<
     \new PianoStaff <<
-
-      \set PianoStaff.instrumentName = "Orgel"
-      \set PianoStaff.shortInstrumentName = "Org."	<<
+      \tag #'partitur {
+        \set PianoStaff.instrumentName = "Orgel"
+        \set PianoStaff.shortInstrumentName = "Org."
+      }
+      <<
 
         \new Staff \with {
           instrumentName = ""

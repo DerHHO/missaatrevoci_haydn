@@ -580,7 +580,7 @@ metronomZeileKyrieATreVociHaydn = \drummode {
 }
 \include "defKyrieATreVociHaydn.ly"
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "KyrieATreVociHaydn-Arbeitspartitur"
@@ -621,4 +621,4 @@ metronomZeileKyrieATreVociHaydn = \drummode {
     \scoreKyrieATreVociHaydn
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}

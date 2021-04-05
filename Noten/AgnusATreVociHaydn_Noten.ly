@@ -116,7 +116,7 @@ violineINotenAgnusATreVociHaydn = \tempTranspose \relative a' {
     d2:16 d4:16 cis4:16 |
     d4 r e,4\p-. e8.-. e16-. |
     e4-. e-. e-. fis-. |
-    g2 g2:16\p | 
+    g2 g2:16\p |
     fis4 r cis'2:16\f |
     d4 r4 r2 \bar "|."
   }
@@ -199,9 +199,9 @@ violineIINotenAgnusATreVociHaydn = \tempTranspose \relative a' {
     a4:16 fis4:16 e2:16 |
     fis4 r d4\p-. d8.-. 16-. |
     d4-. d-. cis-. d-. |
-    e2 e2:16\p | 
+    e2 e2:16\p |
     d4 r g2:16\f |
-    fis4 r r2 | 
+    fis4 r r2 |
     \bar "|."
   }
 }
@@ -570,17 +570,155 @@ continuoNotenAgnusATreVociHaydn = \tempTranspose \relative c {
     fis4 d a'2 |
     d,4 r gis4-.\p gis8. gis16 |
     gis4-. e-. a2~ |
-    a2 r2 |
-    d,4 r a'\f r |
+    a2 cis,2 |
+    d4 r a'\f r |
     d, r r2 \bar "|."
   }
 }
 
-orgelRHNotenAgnusATreVociHaydn = \tempTranspose \relative c' {
+orgelRHNotenAgnusATreVociHaydn = \tempTranspose \relative a' {
   \globalAgnusATreVociHaydn
-  s2.*40
+  <a f d>2 <d a d,>4 |
+  <d a f> <cis a e> r |
+  <<
+    \relative bes' {
+      bes4 a g |
+      f2
+    }
+    \\
+    \relative e' {
+      e2. |
+      d2
+    }
+  >>
+  \oneVoice
+  r4
+  \relative a' {
+    <a e cis>2.~ |
+    <a f d >~ |
+    <a e cis>2~ <a f d>4 |
+    <a f d>~ <a e cis> r4 |
+  }
+  <<
+    \relative a' {
+      fis4 g a |
+      <bes g>2 r4 |
+      b4 c d |
+      c2
+    }
+    \\
+    \relative d' {
+      d2.~ |
+      d2 r4 |
+      g2.~ |
+      <g ees>2
+    }
+  >>
+  r4 |
+  \relative a' {
+    <a ees>4 <g d>~ <g cis> |
+    <g d> <fis c> <g d bes> |
+    q2. |
+    <a g e>4 r r |
+  }
+  \relative a' {
+    <a f d>2 <d a d,>4 |
+    <d a f> <cis a e> r |
+    <bes g e> <a f> <g e> |
+    <a f>2 r4 |
+    <c g e>2. |
+    <c f, c> |
+  }
+  <<
+    \relative c'' {
+      c2.~ |
+      c2 r4 |
+      c2 bes4 |
+      a4 r r |
+    }
+    \\
+    \relative g' {
+      <g e>8. <a f>16 <g e>4 <a f> |
+      q <g e> r |
+      <g e>4 f <g c,> |
+      <f c>4 r r |
+    }
+  >>
+  \relative a' {
+    <a g cis,>2 <a e cis>4 |
+  }
+  <<
+    \relative a' {
+      a2 d4 |
+      <ees bes>2 ees8 d |
+      cis2 cis8 d |
+      d4 e d |
+      d4 cis r
+    }
+    \\
+    \relative f' {
+      d4 <f d> <a d,> |
+      g2 a4 |
+      <g e>2 <a d,>4 |
+      g4 <b e,>~ <gis e> |
+      <a f>~ <a e> r |
+    }
+  >>
+  \relative d'' {
+    <a f d>2 <f d a>4 |
+    <e d bes>2 r4 |
+  }
+  <<
+    \relative bes' {
+      bes4 a g |
+      fis2 r4 |
+      c' bes g |
+      d'4 cis r |
+    }
+    \\
+    \relative e' {
+      e2 e4 |
+      d2 r4 |
+      <a' d,> <g d> d |
+      <a' g e>2 r4 |
+    }
+  >>
+  \relative a' {
+    r4 r8 <g e a,> <f d a> <a d, a> |
+    <a e cis>2 r4 |
+  }
   \globalDonaATreVociHaydn
-  s1*28
+  \relative a' {
+    <a fis d>1~ |
+    <b g d> |
+    <a fis d>2 <g e a,>4 <fis d a> |
+    <fis d a>~ <e cis a> r2 |
+    <e cis a>4 r4 <g cis, a>4 <g e cis> |
+    <fis d a>2 r2 |
+    <a fis d>4 r <a g e> <a g cis,> |
+    <a fis d>2 r2 |
+    <b g d>1 |
+    <a fis d> |
+    <a fis>8 <g e> <b g> <g e> <fis d>4 <e cis> |
+    <a d,>2 r2 |
+    <b g d>1 |
+    <a fis d> |
+    <a fis>8 <g e> <fis d>2 <e cis>4 |
+    <fis d a>4 r4 <g d b>2 |
+    <a d, a>4~ <a fis d>~ <a e cis>2 |
+    <a fis d>4 r <g d b>2 |
+    <a d, a>4~ <a fis d>~ <a e cis>2 |
+    <a fis d>4 r <e d>4-. q8.-. q16-. |
+    q4-. <e d gis,> <e cis a>2~ |
+    q2 <cis' a e>2 |
+    <d a d,>4~ <d a fis>~ <d a e>~ <cis a e> |
+    <d a fis> r4 <e, d>4-. q8.-. q16-. |
+    q4-. <e d gis,> <e cis a>2~ |
+    q2 <g e a,> |
+    <fis d a>4 r <e cis>4 r |
+    <fis d a>4 r r2 |
+  }
+  \bar "|."
 }
 
 orgelLHNotenAgnusATreVociHaydn = \tempTranspose \relative c {
@@ -592,7 +730,7 @@ metronomZeileAgnusATreVociHaydn = \drummode {
 }
 \include "defAgnusATreVociHaydn.ly"
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "AgnusATreVociHaydn-Arbeitspartitur"
@@ -630,4 +768,4 @@ metronomZeileAgnusATreVociHaydn = \drummode {
     \scoreAgnusATreVociHaydn
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}

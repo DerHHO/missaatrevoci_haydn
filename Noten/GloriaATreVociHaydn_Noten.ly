@@ -229,8 +229,8 @@ violineIINotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
     g8( a) a( bes) r4 |
     r4 d,8( e) e( f) |
     r4 g8( a) a( bes) |
-    f4( a) r |
-    r4 e8( f) f( g) | \mBreak
+    f4( b) r |
+    r4 e,8( f) f( g) | \mBreak
     g2 bes4 |
     a4( g) f4 |
     e4( d2) |
@@ -823,20 +823,173 @@ continuoNotenGloriaATreVociHaydn = \tempTranspose \relative d' {
     a8 a, d fis a a, cis e | \mBreak
     b8 d fis e d cis b a |
     g4 r r2 |
-    R1 |
-    a'8 a, d fis a a, cis e |
+    g'4( fis g) e |
+    a8 a, d fis a a, cis e |
     d2 r2 \bar "|."
   }
 }
 
 
-orgelRHNotenGloriaATreVociHaydn = \tempTranspose \relative c' {
+orgelRHNotenGloriaATreVociHaydn = \tempTranspose \relative d'' {
   \globalGloriaATreVociHaydn
-  s1*48
+  d2 \f fis, |
+  g4 b r2 |
+  <e, cis>4 r <fis d>2 |
+  <e cis>4 r r2 | \mBreak
+  b'2 cis, |
+  d4 fis g4~ <g d b>~ |
+  <fis d a>2~ <g cis, a> |
+  <fis d a>4 r4 r2 | \mBreak
+  r2 r4 <d' a fis> |
+  <d b fis>2 r |
+  r2 r4 <b fis d> |
+  <b g d>2. q4 |
+  <b g> <a fis> <g e> <fis d> |
+  <e cis>2 <fis d> |
+  <e cis> <fis d> |
+  <e cis> r2 | \mBreak
+  \relative d'' {
+    d2 fis,4 fis |
+    g4 b r2 |
+    <e, cis>4 r <fis d>2 |
+    <e cis>4 r r2 |
+    b'4. b8 cis,2 |
+    d4 fis g <b g d> |
+    <a fis d>2 ~ <a g cis,>~ |
+    <a fis d>2. q4 |
+    <g d b>1~ |
+    <a fis d>~ |
+    <g d b>1~ |
+    <a fis d>2. r4 | \mBreak
+    
+    <<
+      { 
+        bes1~ |
+        bes4( a) a2 |
+        a1~ |
+        a1 |
+        bes1 
+        bes4( a) a2 |
+        a1~ |
+        a2. 
+      }
+      \\
+      \relative e' {
+        s1 |
+        <g e>2 <e cis>4 <g e> |
+        <f d>4 e8 <f d> <g cis,>4 <f d> |
+        <f d>2 <e cis> |
+        s1 |
+        <g e>2 <e cis>4 <g e> |
+        <f d>4 e8 <f d> <g cis,>4 <f d> |
+        <f d>2 <e cis>4 
+      }
+    >>
+  }
+  r4 |
+  \relative d'' {
+    <a fis d>1~ |
+    q1~ |
+    <b fis d>~ |
+    q1~ |
+    <b g d>4 r4 r2 |
+    r2 r4 <e b g> |
+    <d a fis>2 <cis g e> |
+    <d fis, d>4 r4 r2 |
+    <b g d>4 r r2 |
+    r2 r4 <e b g> |
+    <d a fis>2 <cis a g> |
+    <d a fis>4 r4 r2 |
+  }
   \globalQuiTollisGloriaATreVociHaydn
-  s2.*24
+  \relative bes' {
+    <bes g>8( <c a>) q( <d bes>) r4 |
+    r4 <f, d>8( <g e>) q( <a f>) |
+    r4 <bes g>8( <c a>) q( <d bes>) |
+    <d a f>4 <d b>2 |
+    <d a f>4~ <cis a e> r |
+  }
+  <<
+    \relative cis'' {
+      c2. |
+      d2 a4 |
+      g4 f2 |
+      e2
+    }
+    \\
+    \relative g' {
+      g2 bes4 |
+      a4 g f |
+      e4 d2 |
+      cis2
+    }
+  >>
+  r4 |
+  \relative e' {
+    r4 <e cis>8( <f d>) q( <g e>) |
+    r4 <f d>8( <g e>) q( <a f>) |
+    <d bes e,>4 <c a> <bes g c,> |
+    <bes g c,>~ <a f c> r |
+    <a f c>4~ <a f d>~ <a e> |
+    <bes f d> <c f, c> <bes f d>8 <bes f> |
+    <a f c>2~ <g e c>4 |
+    <a f c>2 r4 |
+    q2 r4 |
+    <c g c,>2 r4 |
+    <cis a e>2 r4 |
+    <d a f>2 r4 |
+    <d a> <ees bes> <d a> |
+    <cis g> <d a> <bes g d> |
+    <a f d>4~ <a e d>~ <a e cis> |
+  }
   \globalQuoniamGloriaATreVociHaydn
-  s1*29
+  \relative a' {
+    <a fis d>4 r r2 |
+    d2 fis,2 |
+    g4 b r2 |
+    <e, cis>2 <fis d> |
+    <fis d>4( <e cis>) r2 |
+    b'2 cis, |
+    d4. e8 fis4 g |
+    <a fis d>2~ <a g cis,>~
+    <a fis d>4 r r q |
+    <b g d>2. q4 |
+    <a fis d>2. r4 |
+    <b g d>2. q4 |
+    <a fis d>2. <b g>4 |
+    r4 <c a d,> <c a fis> <c a d,> |
+    <b g d>4. <a fis cis>8 <g d>4 <a fis cis> |
+    <b g d>~ <a d,>~ <a g cis,>~ <a fis d>~ |
+    <a g e>~ <a g cis,> r2 |
+    <a fis d>1~ |
+    <b fis d>~ |
+    q~ |
+    <b g d> |
+  }
+  <<
+    \relative b' {
+      b1 |
+      a4 <cis g> <d a> <e b> |
+      d2 cis |
+      b2 r |
+      b2 b |
+      b4 a b <e b> |
+      d2 cis |
+      d2 r |
+    }
+    \\
+    \relative g' {
+      g4 fis e d |
+      e2 fis4 e |
+      <a fis>2~ <a e> |
+      <fis d>2 r |
+      <g d>2 q |
+      d2. g4 |
+      <a fis>2 <a e> |
+      <a fis> r |
+    }
+  >>
+  \bar "|."
 }
 
 orgelLHNotenGloriaATreVociHaydn = \tempTranspose \relative c {
@@ -848,7 +1001,7 @@ metronomZeileGloriaATreVociHaydn = \drummode {
 }
 \include "defGloriaATreVociHaydn.ly"
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "GloriaATreVociHaydn-Arbeitspartitur"
@@ -886,4 +1039,4 @@ metronomZeileGloriaATreVociHaydn = \drummode {
     \scoreGloriaATreVociHaydn
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}
